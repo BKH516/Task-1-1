@@ -1,0 +1,97 @@
+body {
+    display: flex;
+    background: linear-gradient(to right, #4f52ff, #7e56f4, #ab5be8, #d861dd, #ff66d1);
+    color: #fff;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+.icon {
+    height: 30px;
+}
+
+.ul {
+    list-style: none;
+    position: relative;
+    left: -25px;
+}
+
+.icont {
+    height: 15px;
+}
+
+a {
+    color: #90caf9;
+}
+
+th {
+    background-color: #546e7a;
+}
+
+iframe {
+    border-radius: 50%;
+    width: 60%;
+}
+
+button {
+    position: relative;
+    width: 200px;
+    left: 290px;
+    background-color: #2196f3;
+    border: 1px solid transparent;
+    box-shadow: 0 0 10px rgba(33, 150, 243, 0.5);
+    transition: box-shadow 0.3s ease-in-out;
+    color: #fff;
+}
+
+button:hover {
+    box-shadow: 0 0 20px rgba(33, 150, 243, 0.8);
+}
+
+.icon:hover {
+    filter: brightness(1.5);
+}
+
+.Email {
+    color: #ff9800;
+}
+
+.input-box {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #2196f3;
+    border: 1px solid transparent;
+    box-shadow: 0 0 10px rgba(33, 150, 243, 0.5);
+    transition: box-shadow 0.3s ease-in-out;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 0 0 20px rgba(33, 150, 243, 0.8);
+}
